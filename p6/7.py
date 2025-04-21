@@ -1,0 +1,5 @@
+t = (10, 20, 30, 40)
+lst = list(t)
+lst.remove(lst[2])
+t = tuple(lst)
+print("Tuple after deletion:", t)
