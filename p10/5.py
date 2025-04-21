@@ -1,0 +1,8 @@
+f_in=open("E:\\Py_lab\\p10\\5_input.txt",'r')
+f_out=open("E:\\Py_lab\\p10\\5_output.txt",'w')
+data=f_in.read()
+data=data.upper()
+f_out.write(data)
+f_in.close()
+f_out.close()
+print("Done writing")
